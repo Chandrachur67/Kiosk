@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; 
+    color: white; 
+    padding: 10px 20px; 
+  }
+  
+  .navbar-left {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-left li {
+    display: inline;
+    margin-right: 20px; 
+  }
+  
+  .navbar-right {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-right li {
+    display: inline;
+    margin-left: 20px; 
+  }
+  
+  .navbar-right li:last-child {
+    margin-right: 0; 
+  }
+  

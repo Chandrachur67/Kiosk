@@ -1,0 +1,20 @@
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    height: 30px;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: rgb(157, 193, 218);
+    height: 100%;
+}
+
