@@ -1,8 +1,15 @@
 .ques {
-  background-color: rgb(215, 252, 252)
-  width: auto
+  background-color: rgb(215, 252, 252);
+  width: auto;
+  border-radius: 10px;
+  padding: 0.5rem
+}
+
+.queslabel {
+  font-size: 1.5rem;
 }
 
 .diagnosis {
-  width: 100%
+  width: 100%;
+  padding: 2rem;
 }

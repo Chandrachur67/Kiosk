@@ -16,7 +16,7 @@ function App() {
         <div className='sidebar'>
           <Sidebar />
         </div>
-        <div>
+        {/* <div> */}
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/login" element={<Home />} />
@@ -24,7 +24,7 @@ function App() {
             <Route exact path="/profile" element={<Home />} />
             <Route exact path="/diagnosis" element={<Diagnosis />} />
         </Routes>
-        </div>
+        {/* </div> */}
       </div>
     </div>
   )

@@ -7,13 +7,13 @@
     padding: 10px 20px; 
   }
   
-  .navbar-left-ul {
+  .navbar-left {
     list-style: none;
-    margin: 0;
+    margin-left:0;
     padding: 0;
   }
   
-  .navbar-left-ul li {
+  .navbar-left li {
     display: inline;
     margin-right: 20px; 
   }
@@ -22,18 +22,18 @@
     margin-right: 0;
   }
 
-  .navbar-right-ul {
+  .navbar-right {
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
-  .navbar-right-ul li {
+  .navbar-right li {
     display: inline;
     margin-left: 20px; 
   }
   
-  .navbar-right-ul li:last-child {
+  .navbar-right li:last-child {
     margin-right: 0; 
   }
   
