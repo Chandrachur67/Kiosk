@@ -2,34 +2,38 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333; 
+    background-color: #f2e8e8; 
     color: white; 
     padding: 10px 20px; 
   }
   
-  .navbar-left {
+  .navbar-left-ul {
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
-  .navbar-left li {
+  .navbar-left-ul li {
     display: inline;
     margin-right: 20px; 
   }
-  
+
   .navbar-right {
+    margin-right: 0;
+  }
+
+  .navbar-right-ul {
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
-  .navbar-right li {
+  .navbar-right-ul li {
     display: inline;
     margin-left: 20px; 
   }
   
-  .navbar-right li:last-child {
+  .navbar-right-ul li:last-child {
     margin-right: 0; 
   }
   

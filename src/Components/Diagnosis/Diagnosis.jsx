@@ -1,10 +1,12 @@
 import React from 'react'
-import Question from '../Question/Question' 
+import Question from '../Question/Question'
 
 const Diagnosis = () => {
   return (
-    <div>Diag</div>
-    <Question ques="What is your gender?" options={["male", "female", "other"]}>
+    <div class='diagnosis'>
+      <div>Diagnosis</div>
+      <Question ques="What is your gender?" options={["male", "female", "other"]} />
+    </div>
 
   )
 }
